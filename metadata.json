@@ -1,0 +1,8 @@
+{
+    "uuid": "touchpad@gpawru",
+    "name": "Touchpad Switcher",
+    "description": "Simple touchpad state switcher",
+    "version": "1.0",
+    "shell-version": ["45", "46"],
+    "url": "https://github.com/gpawru/touchpad"
+}
