@@ -1,4 +1,4 @@
-# Touchpad Toggle Extension
+# Touchpad Toggle GNOME Extension
 
 This extension adds a touchpad toggle switch to the system menu.
 
