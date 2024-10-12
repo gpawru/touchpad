@@ -1,6 +1,7 @@
 NAME = touchpad@gpawru
 SCHEMA_NAME = touchpad_gpawru
 EXTENSION_DIR = $(HOME)/.local/share/gnome-shell/extensions/$(NAME)
+PACK_NAME = $(NAME).shell-extension.zip
 
 .PHONY: run all pack install clean
 
@@ -15,21 +16,19 @@ node_modules: package.json
 schemas/gschemas.compiled: schemas/org.gnome.shell.extensions.$(SCHEMA_NAME).gschema.xml
 	glib-compile-schemas schemas
 
-.release/$(NAME).zip: .build/extension.js .build/prefs.js schemas/gschemas.compiled
-	@mkdir .release
+.release/$(PACK_NAME): .build/extension.js .build/prefs.js schemas/gschemas.compiled
+	@rm -rf .release && mkdir .release
 	@cp -r schemas .build/
 	@cp metadata.json .build/
-	@(cd .build && zip ../.release/$(NAME).zip -9r .)
+	@gnome-extensions pack .build --out-dir=.release --podir=./../po --force --extra-source=icon.js --extra-source=toggle.js --extra-source=types.js
 
 run:
 	env MUTTER_DEBUG_DUMMY_MODE_SPECS=1600x1080 dbus-run-session -- gnome-shell --nested --wayland
 
-pack: .release/$(NAME).zip
+pack: .release/$(PACK_NAME)
 
-install: .release/$(NAME).zip
-	@touch $(EXTENSION_DIR)
-	@rm -rf $(EXTENSION_DIR)
-	@mv .build $(EXTENSION_DIR)
+install: .release/$(PACK_NAME)
+	@gnome-extensions install .release/$(PACK_NAME) --force
 
 clean:
 	@rm -rf .build node_modules .release

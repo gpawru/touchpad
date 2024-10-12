@@ -22,11 +22,11 @@ msgid "prefs.window.title"
 msgstr ""
 
 #: src/prefs.ts:10
-msgid "prefs.group.general.title"
+msgid "prefs.group.appearance.title"
 msgstr ""
 
 #: src/prefs.ts:11
-msgid "prefs.group.general.description"
+msgid "prefs.group.appearance.description"
 msgstr ""
 
 #: src/prefs.ts:13
