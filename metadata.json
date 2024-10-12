@@ -2,7 +2,9 @@
     "uuid": "touchpad@gpawru",
     "name": "Touchpad Switcher",
     "description": "Simple touchpad state switcher",
-    "version": "1.0",
-    "shell-version": ["45", "46"],
-    "url": "https://github.com/gpawru/touchpad"
+    "version": "1.1",
+    "shell-version": ["45", "46", "47"],
+    "url": "https://github.com/gpawru/touchpad",
+    "settings-schema": "org.gnome.shell.extensions.touchpad_gpawru",
+    "gettext-domain": "touchpad@gpawru"
 }
