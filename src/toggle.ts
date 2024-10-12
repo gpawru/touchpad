@@ -1,16 +1,15 @@
 import Gio from 'gi://Gio';
 import GObject from 'gi://GObject';
-import { TouchpadState } from './types.js';
 import { QuickMenuToggle } from 'resource:///org/gnome/shell/ui/quickSettings.js';
 import { Ornament, PopupImageMenuItem } from 'resource:///org/gnome/shell/ui/popupMenu.js';
 import { gettext } from 'resource:///org/gnome/shell/extensions/extension.js';
-
-// GNOME settings.
-
-const SETTINGS_SCHEMA_ID = 'org.gnome.desktop.peripherals.touchpad';
-const SEND_EVENTS_DISABLED = 'disabled';
-const SEND_EVENTS_DISABLED_ON_EXTERNAL_MOUSE = 'disabled-on-external-mouse';
-const SEND_EVENTS_ENABLED = 'enabled';
+import {
+    SEND_EVENTS_DISABLED,
+    SEND_EVENTS_DISABLED_ON_EXTERNAL_MOUSE,
+    SEND_EVENTS_ENABLED,
+    SETTINGS_SCHEMA_ID,
+    TouchpadState,
+} from './types.js';
 
 // Text and icons.
 
