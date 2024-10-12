@@ -1,0 +1,20 @@
+{
+    "compilerOptions": {
+        "baseUrl": ".",
+        "paths": {
+            "@girs/*": ["node_modules/@girs/*"]
+        },
+        "module": "NodeNext",
+        "moduleResolution": "NodeNext",
+        "outDir": "./.build",
+        "sourceMap": false,
+        "strict": true,
+        "target": "ES2022",
+        "lib": ["ES2022"],
+        "removeComments": false,
+        "skipLibCheck": true,
+        "forceConsistentCasingInFileNames": false
+    },
+    "include": ["ambient.d.ts", "src/**/*.ts"],
+    "files": ["src/extension.ts", "src/prefs.ts"]
+}
