@@ -61,16 +61,17 @@ export default class QuickTouchpadToggleExtension extends Extension {
         // Stop listening to the show-indicator setting.
         if (this.listenerShowIndicator) {
             this.extensionSettings!.disconnect(this.listenerShowIndicator);
-            this.listenerShowIndicator = undefined;
+            this.listenerShowIndicator = null;
         }
 
         // Stop listening to the GNOME touchpad state.
         if (this.listenerTouchpadState) {
             this.touchpadSettings!.disconnect(this.listenerTouchpadState);
-            this.listenerTouchpadState = undefined;
+            this.listenerTouchpadState = null;
         }
 
-        this.extensionSettings = undefined;
+        this.touchpadSettings = null;
+        this.extensionSettings = null;
     }
 
     /**
@@ -171,11 +172,11 @@ export default class QuickTouchpadToggleExtension extends Extension {
         if (this.toggleIndicator) {
             // Stop listening to the touchpad switcher.
             this.toggleIndicator.quickSettingsItems[0].disconnect(this.listenerTouchpadToggle!);
-            this.listenerTouchpadToggle = undefined;
+            this.listenerTouchpadToggle = null;
 
             this.toggleIndicator.quickSettingsItems.forEach((item) => item.destroy());
             this.toggleIndicator.destroy();
-            this.toggleIndicator = undefined;
+            this.toggleIndicator = null;
         }
     }
 
@@ -199,7 +200,7 @@ export default class QuickTouchpadToggleExtension extends Extension {
         if (this.iconIndicator) {
             this.iconIndicator.quickSettingsItems.forEach((item) => item.destroy());
             this.iconIndicator.destroy();
-            this.iconIndicator = undefined;
+            this.iconIndicator = null;
         }
     }
 }

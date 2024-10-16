@@ -9,6 +9,7 @@
         "outDir": "./.build",
         "sourceMap": false,
         "strict": true,
+        "strictNullChecks": false,
         "target": "ES2022",
         "lib": ["ES2022"],
         "removeComments": false,
