@@ -59,7 +59,7 @@ msgstr "Включён"
 # Quick settings button mouse only state subtitle. Must be short to fit.
 #: src/toggle.ts:19
 msgid "toggle.subtitle.mouseonly"
-msgstr "При подкл. мыши"
+msgstr "Только мышь"
 
 # Quick settings button disabled state subtitle. Must be short to fit.
 #: src/toggle.ts:20

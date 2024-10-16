@@ -12,6 +12,12 @@ The code is licensed under the MIT License. Feel free to use it as needed. If yo
 
 ## Changelog
 
+### v1.1.1
+
+**Fixes:**
+* Added disconnect for signals to prevent memory leaks.
+* Minor adjustment in Russian localization.
+
 ### v1.1.0
 
 **Features:**

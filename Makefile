@@ -20,7 +20,7 @@ schemas/gschemas.compiled: schemas/org.gnome.shell.extensions.$(SCHEMA_NAME).gsc
 	@rm -rf .release && mkdir .release
 	@cp -r schemas .build/
 	@cp metadata.json .build/
-	@gnome-extensions pack .build --out-dir=.release --podir=./../po --force --extra-source=icon.js --extra-source=toggle.js --extra-source=types.js
+	@gnome-extensions pack .build --out-dir=.release --podir=./../po --force --extra-source=icon.js --extra-source=toggle.js --extra-source=types.js --extra-source=./../LICENSE --extra-source=./../README.md
 
 run:
 	env MUTTER_DEBUG_DUMMY_MODE_SPECS=1600x1080 dbus-run-session -- gnome-shell --nested --wayland
