@@ -7,8 +7,8 @@ msgstr ""
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-10-12 16:58+0300\n"
 "PO-Revision-Date: 2024-10-12 21:15+0300\n"
-"Last-Translator: Anton <>\n"
-"Language-Team: Russian\n"
+"Last-Translator: Anton <anton@gpaw.ru>\n"
+"Language-Team: Russian <anton@gpaw.ru>\n"
 "Language: ru\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -34,7 +34,7 @@ msgstr "Отображение"
 # Extension settings appearance block subtitle
 #: src/prefs.ts:11
 msgid "prefs.group.appearance.description"
-msgstr "Настройки отображения расширения Tochpad Switcher"
+msgstr "Настройки отображения расширения Touchpad Switcher"
 
 # Extension settings "Show indicator" option title
 #: src/prefs.ts:13
