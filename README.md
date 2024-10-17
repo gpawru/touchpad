@@ -14,10 +14,10 @@ The code is licensed under the MIT License. Feel free to use it as needed. If yo
 
 ### v1.1.2
 
-**Fixes**
+**Fixes:**
 * Translation fixes
 
-**Features**
+**Features:**
 * Added Hungarian translation (thank you, @ViBE-HU !)
 
 ### v1.1.1
