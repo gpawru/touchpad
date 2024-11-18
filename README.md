@@ -12,6 +12,11 @@ The code is licensed under the MIT License. Feel free to use it as needed. If yo
 
 ## Changelog
 
+### v1.1.3
+
+**Features:**
+* Brazilian Brazilian Portuguese (thanks to @andrecesarvieira !)
+
 ### v1.1.2
 
 **Fixes:**

@@ -1,0 +1,88 @@
+# This file is distributed under the same license as the PACKAGE package.
+# Anton, 2024.
+# Thanks to @andrecesarvieira for this translation!
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: 1.1.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2024-10-12 16:58+0300\n"
+"PO-Revision-Date: 2024-10-12 21:28+0300\n"
+"Last-Translator: Anton <anton@gpaw.ru>\n"
+"Language-Team: Brazilian Portuguese <anton@gpaw.ru>\n"
+"Language: pt_BR\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && "
+"n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+"X-Generator: Gtranslator 46.0\n"
+"X-DL-Lang: Brazilian Portuguese\n"
+"X-DL-Module: \n"
+"X-DL-Branch: \n"
+"X-DL-Domain: \n"
+
+# Extension settings window title
+#: src/prefs.ts:7
+msgid "prefs.window.title"
+msgstr "Touchpad Switcher"
+
+# Extension settings appearance block title
+#: src/prefs.ts:10
+msgid "prefs.group.appearance.title"
+msgstr "Aparência"
+
+# Extension settings appearance block subtitle
+#: src/prefs.ts:11
+msgid "prefs.group.appearance.description"
+msgstr "Configure a aparência do Touchpad Switcher"
+
+# Extension settings "Show indicator" option title
+#: src/prefs.ts:13
+msgid "prefs.show_indicator.title"
+msgstr "Mostrar ícone no painel"
+
+# Extension settings "Show Indicator" option subtitle
+#: src/prefs.ts:14
+msgid "prefs.show_indicator.subtitle"
+msgstr "Selecione para mostrar o ícone no painel"
+
+# Quick settings button title
+#: src/toggle.ts:17
+msgid "toggle.title"
+msgstr "Touchpad"
+
+# Quick settings button enabled state subtitle. Must be short to fit.
+#: src/toggle.ts:18
+msgid "toggle.subtitle.enabled"
+msgstr "Habilitado"
+
+# Quick settings button mouse only state subtitle. Must be short to fit.
+#: src/toggle.ts:19 
+msgid "toggle.subtitle.mouseonly"
+msgstr "Apenas o mouse"
+
+# Quick settings button disabled state subtitle. Must be short to fit.
+#: src/toggle.ts:20
+msgid "toggle.subtitle.disabled"
+msgstr "Desabilitado"
+
+# Quick settings popup title
+#: src/toggle.ts:22
+msgid "toggle.popup.title"
+msgstr "Configurações do Touchpad"
+
+# Quick settings popup "Enabled" option
+#: src/toggle.ts:23
+msgid "toggle.popup.option.enabled"
+msgstr "Habilitado"
+
+# Quick settings popup "Off with external mouse" option
+#: src/toggle.ts:24
+msgid "toggle.popup.option.mouseonly"
+msgstr "Desativado ao utilizar mouse externo"
+
+# Quick settings popup "Disabled" option
+#: src/toggle.ts:25
+msgid "toggle.popup.option.disabled"
+msgstr "Desabilitado"
