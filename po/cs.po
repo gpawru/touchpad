@@ -1,0 +1,83 @@
+# Czech translation for touchpad@gpawru.
+# Copyright (C) 2025 touchpad@gpawru
+# This file is distributed under the same license as the touchpad@gpawru package.
+# darkmackov <darkovecmackov@gmail.com>, 2025.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: 1.1.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2025-05-01 13:28+0200\n"
+"PO-Revision-Date: 2025-05-01 13:35+0200\n"
+"Last-Translator: darkmackov <darkovecmackov@gmail.com>\n"
+"Language-Team: Czech <darkovecmackov@gmail.com>\n"
+"Language: cs\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=(n==1) ? 0 : (n>=2 && n<=4) ? 1 : 2\n"
+
+# Extension settings window title
+#: src/prefs.ts:7
+msgid "prefs.window.title"
+msgstr "Touchpad Switcher"
+
+# Extension settings appearance block title
+#: src/prefs.ts:10
+msgid "prefs.group.appearance.title"
+msgstr "Vzhled"
+
+# Extension settings appearance block subtitle
+#: src/prefs.ts:11
+msgid "prefs.group.appearance.description"
+msgstr "Konfigurovat vzhled"
+
+# Extension settings "Show indicator" option title
+#: src/prefs.ts:13
+msgid "prefs.show_indicator.title"
+msgstr "Zobrazit ukazatel"
+
+# Extension settings "Show Indicator" option subtitle
+#: src/prefs.ts:14
+msgid "prefs.show_indicator.subtitle"
+msgstr "Jestli zobrazit ukazatel v panelu"
+
+# Quick settings button title
+#: src/toggle.ts:17
+msgid "toggle.title"
+msgstr "Touchpad"
+
+# Quick settings button enabled state subtitle. Must be short to fit.
+#: src/toggle.ts:18
+msgid "toggle.subtitle.enabled"
+msgstr "Zapnuto"
+
+# Quick settings button mouse only state subtitle. Must be short to fit.
+#: src/toggle.ts:19 
+msgid "toggle.subtitle.mouseonly"
+msgstr "Pouze myš"
+
+# Quick settings button disabled state subtitle. Must be short to fit.
+#: src/toggle.ts:20
+msgid "toggle.subtitle.disabled"
+msgstr "Vypnuto"
+
+# Quick settings popup title
+#: src/toggle.ts:22
+msgid "toggle.popup.title"
+msgstr "Nastavení Touchpadu"
+
+# Quick settings popup "Enabled" option
+#: src/toggle.ts:23
+msgid "toggle.popup.option.enabled"
+msgstr "Zapnuto"
+
+# Quick settings popup "Off with external mouse" option
+#: src/toggle.ts:24
+msgid "toggle.popup.option.mouseonly"
+msgstr "Vypnuto, pokud je připojena externí myš"
+
+# Quick settings popup "Disabled" option
+#: src/toggle.ts:25
+msgid "toggle.popup.option.disabled"
+msgstr "Vypnuto"
