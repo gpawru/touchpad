@@ -1,0 +1,71 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2024-10-12 16:58+0300\n"
+"PO-Revision-Date: 2025-06-23 17:05+0900\n"
+"Last-Translator: HyeonWol <hyeonwol12345@kakao.com>\n"
+"Language-Team: \n"
+"Language: ko\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 3.6\n"
+
+#: src/prefs.ts:7
+msgid "prefs.window.title"
+msgstr "터치패드 전환기"
+
+#: src/prefs.ts:10
+msgid "prefs.group.appearance.title"
+msgstr "모양새"
+
+#: src/prefs.ts:11
+msgid "prefs.group.appearance.description"
+msgstr "터치패드 전환기의 모양새를 설정"
+
+#: src/prefs.ts:13
+msgid "prefs.show_indicator.title"
+msgstr "인디케이터 표시"
+
+#: src/prefs.ts:14
+msgid "prefs.show_indicator.subtitle"
+msgstr "인디케이터를 표시할 위치 설정"
+
+#: src/toggle.ts:17
+msgid "toggle.title"
+msgstr "터치패드"
+
+#: src/toggle.ts:18
+msgid "toggle.subtitle.enabled"
+msgstr "사용"
+
+#: src/toggle.ts:19
+msgid "toggle.subtitle.mouseonly"
+msgstr "마우스 연결 시에만"
+
+#: src/toggle.ts:20
+msgid "toggle.subtitle.disabled"
+msgstr "사용 안 함"
+
+#: src/toggle.ts:22
+msgid "toggle.popup.title"
+msgstr "터치패드 설정"
+
+#: src/toggle.ts:23
+msgid "toggle.popup.option.enabled"
+msgstr "사용"
+
+#: src/toggle.ts:24
+msgid "toggle.popup.option.mouseonly"
+msgstr "마우스 연결 시 사용 안 함"
+
+#: src/toggle.ts:25
+msgid "toggle.popup.option.disabled"
+msgstr "사용 안 함"
