@@ -11,10 +11,14 @@ I created this extension because when I switched from desktop to laptop, I could
 The code is licensed under the MIT License. Feel free to use it as needed. If you have any suggestions or need modifications, please reach out!
 
 ## Changelog
+
+### v1.1.5
+* Added Korean tanslation.
+
 ### v1.1.4
 
 **Features:**
-* Added Czech translation
+* Added Czech translation.
 * Added support for GNOME version 48.
 
 ### v1.1.3
