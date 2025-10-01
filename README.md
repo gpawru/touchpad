@@ -13,7 +13,7 @@ The code is licensed under the MIT License. Feel free to use it as needed. If yo
 ## Changelog
 
 ### v1.1.5
-* Added Korean tanslation.
+* Added Korean translation.
 
 ### v1.1.4
 
