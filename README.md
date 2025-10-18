@@ -12,6 +12,10 @@ The code is licensed under the MIT License. Feel free to use it as needed. If yo
 
 ## Changelog
 
+### v1.1.6
+
+* GNOME 49.
+
 ### v1.1.5
 * Added Korean translation.
 
