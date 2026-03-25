@@ -12,6 +12,10 @@ The code is licensed under the MIT License. Feel free to use it as needed. If yo
 
 ## Changelog
 
+### v1.1.7
+
+ * GNOME 50.
+
 ### v1.1.6
 
 * GNOME 49.
