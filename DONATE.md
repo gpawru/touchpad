@@ -2,7 +2,7 @@
 
 If you find this extension useful, you can support the author with a crypto donation.
 
-## EVM Networks (ERC-20 / BEP-20 etc.)
+## Etherium, EVM Networks (ERC-20 / BEP-20 etc.)
 
 **Address:** `0xCc2573476e053A6D67e8c47cEFdEee1b772b2B7C`
 
