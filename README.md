@@ -5,8 +5,6 @@ This extension adds a touchpad toggle switch to the system menu.
 ![GNOME Shell](https://img.shields.io/badge/GNOME_Shell-45%2B-blue?style=flat-square&logo=gnome)
 ![LICENSE](https://img.shields.io/badge/License-MIT-green?style=flat-square)
 
-[![💙 Support the Author](https://img.shields.io/badge/💙_Support_the_Author-Donate-ff69b4?style=for-the-badge&labelColor=6e5494)](DONATE.md)
-
 ## Motivation
 
 I created this extension because when I switched from desktop to laptop, I couldn't find anything suitable for my needs (Ubuntu 24.04, Wayland, GNOME 46). I hope it will be useful to others as well.
