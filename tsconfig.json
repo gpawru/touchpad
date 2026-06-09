@@ -1,8 +1,8 @@
 {
     "compilerOptions": {
-        "baseUrl": ".",
+        "rootDir": "./src",
         "paths": {
-            "@girs/*": ["node_modules/@girs/*"]
+            "@girs/*": ["./node_modules/@girs/*"]
         },
         "module": "NodeNext",
         "moduleResolution": "NodeNext",
