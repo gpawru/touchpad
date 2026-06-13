@@ -1,0 +1,114 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-06-13 13:18+0300\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=CHARSET\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: src/prefs.ts:8
+msgid "prefs.window.title"
+msgstr ""
+
+#: src/prefs.ts:11
+msgid "prefs.group.appearance.title"
+msgstr ""
+
+#: src/prefs.ts:12
+msgid "prefs.group.appearance.description"
+msgstr ""
+
+#: src/prefs.ts:14
+msgid "prefs.show_indicator.title"
+msgstr ""
+
+#: src/prefs.ts:15
+msgid "prefs.show_indicator.subtitle"
+msgstr ""
+
+#: src/prefs.ts:17
+msgid "prefs.shortcut.group.title"
+msgstr ""
+
+#: src/prefs.ts:18
+msgid "prefs.shortcut.group.description"
+msgstr ""
+
+#: src/prefs.ts:19
+msgid "prefs.shortcut.set"
+msgstr ""
+
+#: src/prefs.ts:20
+msgid "prefs.shortcut.reset"
+msgstr ""
+
+#: src/prefs.ts:22
+msgid "prefs.shortcut.window.title"
+msgstr ""
+
+#: src/prefs.ts:23
+msgid "prefs.shortcut.window.label"
+msgstr ""
+
+#: src/prefs.ts:24
+msgid "prefs.shortcut.captured"
+msgstr ""
+
+#: src/prefs.ts:25
+msgid "prefs.shortcut.invalid"
+msgstr ""
+
+#: src/prefs.ts:26
+msgid "prefs.shortcut.need_key"
+msgstr ""
+
+#: src/prefs.ts:28
+msgid "prefs.shortcut.window.button_cancel"
+msgstr ""
+
+#: src/prefs.ts:29
+msgid "prefs.shortcut.window.button_set"
+msgstr ""
+
+#: src/toggle.ts:9
+msgid "toggle.title"
+msgstr ""
+
+#: src/toggle.ts:10
+msgid "toggle.subtitle.enabled"
+msgstr ""
+
+#: src/toggle.ts:11
+msgid "toggle.subtitle.mouseonly"
+msgstr ""
+
+#: src/toggle.ts:12
+msgid "toggle.subtitle.disabled"
+msgstr ""
+
+#: src/toggle.ts:14
+msgid "toggle.popup.title"
+msgstr ""
+
+#: src/toggle.ts:15
+msgid "toggle.popup.option.enabled"
+msgstr ""
+
+#: src/toggle.ts:16
+msgid "toggle.popup.option.mouseonly"
+msgstr ""
+
+#: src/toggle.ts:17
+msgid "toggle.popup.option.disabled"
+msgstr ""
