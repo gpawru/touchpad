@@ -2,8 +2,11 @@ import Gio from 'gi://Gio';
 import { Extension } from 'resource:///org/gnome/shell/extensions/extension.js';
 import { SystemIndicator } from 'resource:///org/gnome/shell/ui/quickSettings.js';
 import { TouchpadToggle } from './toggle.js';
-import { panel } from 'resource:///org/gnome/shell/ui/main.js';
+import { panel, wm } from 'resource:///org/gnome/shell/ui/main.js';
 import { IconIndicator } from './icon.js';
+import Meta from 'gi://Meta';
+import Shell from 'gi://Shell';
+
 import {
     SEND_EVENTS_DISABLED,
     SEND_EVENTS_DISABLED_ON_EXTERNAL_MOUSE,
@@ -11,6 +14,8 @@ import {
     SETTINGS_SCHEMA_ID,
     TouchpadState,
 } from './types.js';
+
+const SHORTCUT_NAME = 'shortcut';
 
 /**
  * QuickTouchpadToggleExtension class
@@ -42,6 +47,9 @@ export default class QuickTouchpadToggleExtension extends Extension {
             this.enableIconIndicator();
         }
 
+        // Shortcut.
+        this.bindShortcut();
+
         // Listen to the 'org.gnome.desktop.peripherals.touchpad'.
         this.listenerTouchpadState = this.touchpadSettings.connect('changed::send-events', () => this.onTouchpadStateChange());
 
@@ -54,6 +62,9 @@ export default class QuickTouchpadToggleExtension extends Extension {
      * Destroys the quick settings touchpad toggle and cleans up the indicators.
      */
     disable() {
+        // Shortcut.
+        this.unbindShortcut();
+
         // Clean up and disable the toggle and icon indicators.
         this.disableToggleIndicator();
         this.disableIconIndicator();
@@ -72,6 +83,39 @@ export default class QuickTouchpadToggleExtension extends Extension {
 
         this.touchpadSettings = null;
         this.extensionSettings = null;
+    }
+
+    private bindShortcut() {
+        if (!this.extensionSettings) return;
+
+        wm.addKeybinding(
+            SHORTCUT_NAME,
+            this.extensionSettings,
+            Meta.KeyBindingFlags.NONE,
+            Shell.ActionMode.NORMAL | Shell.ActionMode.OVERVIEW,
+            () => this.toggleTouchpad()
+        );
+    }
+
+    private unbindShortcut() {
+        wm.removeKeybinding(SHORTCUT_NAME);
+    }
+
+    private toggleTouchpad() {
+        const currentState = this.getTouchpadState();
+        let newState: TouchpadState;
+
+        switch (currentState) {
+            case TouchpadState.Enabled:
+                newState = TouchpadState.Disabled;
+                break;
+            case TouchpadState.Disabled:
+            case TouchpadState.MouseOnly:
+                newState = TouchpadState.Enabled;
+                break;
+        }
+
+        this.updateSendEventsSetting(newState);
     }
 
     /**
