@@ -38,57 +38,46 @@ msgid "prefs.show_indicator.subtitle"
 msgstr "Ikon megjelenítése az értesítési területen"
 
 #: src/prefs.ts:17
-#, fuzzy
 msgid "prefs.shortcut.group.title"
 msgstr "Billentyűparancs"
 
 #: src/prefs.ts:18
-#, fuzzy
 msgid "prefs.shortcut.group.description"
 msgstr "Gyorsbillentyű hozzárendelése az érintőtábla gyors átkapcsolásához"
 
 #: src/prefs.ts:19
-#, fuzzy
 msgid "prefs.shortcut.set"
 msgstr "Billentyűkombináció beállítása…"
 
 #: src/prefs.ts:20
-#, fuzzy
 msgid "prefs.shortcut.reset"
 msgstr "Visszaállítás"
 
 #: src/prefs.ts:22
-#, fuzzy
 msgid "prefs.shortcut.window.title"
 msgstr "Billentyűkombináció beállítása"
 
 #: src/prefs.ts:23
-#, fuzzy
 msgid "prefs.shortcut.window.label"
 msgstr "Nyomja meg a kívánt billentyűkombinációt…"
 
 #: src/prefs.ts:24
-#, fuzzy
 msgid "prefs.shortcut.captured"
 msgstr "Rögzítve: %s"
 
 #: src/prefs.ts:25
-#, fuzzy
 msgid "prefs.shortcut.invalid"
 msgstr "Érvénytelen kombináció"
 
 #: src/prefs.ts:26
-#, fuzzy
 msgid "prefs.shortcut.need_key"
 msgstr "Normál billentyűt kell lenyomnia (nem csak módosítókat)"
 
 #: src/prefs.ts:28
-#, fuzzy
 msgid "prefs.shortcut.window.button_cancel"
 msgstr "Mégse"
 
 #: src/prefs.ts:29
-#, fuzzy
 msgid "prefs.shortcut.window.button_set"
 msgstr "Beállítás"
 

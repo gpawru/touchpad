@@ -18,135 +18,111 @@ msgstr ""
 
 # Extension settings window title
 #: src/prefs.ts:8
-#, fuzzy
 msgid "prefs.window.title"
 msgstr "Touchpad Switcher 首选项"
 
 # Extension settings appearance block title
 #: src/prefs.ts:11
-#, fuzzy
 msgid "prefs.group.appearance.title"
 msgstr "外观"
 
 # Extension settings appearance block subtitle
 #: src/prefs.ts:12
-#, fuzzy
 msgid "prefs.group.appearance.description"
 msgstr "配置 Touchpad Switcher 的外观"
 
 # Extension settings "Show indicator" option title
 #: src/prefs.ts:14
-#, fuzzy
 msgid "prefs.show_indicator.title"
 msgstr "显示指示器"
 
 # Extension settings "Show Indicator" option subtitle
 #: src/prefs.ts:15
-#, fuzzy
 msgid "prefs.show_indicator.subtitle"
 msgstr "是否在面板中显示指示器"
 
 # Keyboard shortcut group title
 #: src/prefs.ts:17
-#, fuzzy
 msgid "prefs.shortcut.group.title"
 msgstr "键盘快捷键"
 
 # Keyboard shortcut group description
 #: src/prefs.ts:18
-#, fuzzy
 msgid "prefs.shortcut.group.description"
 msgstr "分配一个键盘快捷键以快速切换触摸板"
 
 #: src/prefs.ts:19
-#, fuzzy
 msgid "prefs.shortcut.set"
 msgstr "设置快捷键…"
 
 #: src/prefs.ts:20
-#, fuzzy
 msgid "prefs.shortcut.reset"
 msgstr "重置"
 
 # Shortcut capture dialog
 #: src/prefs.ts:22
-#, fuzzy
 msgid "prefs.shortcut.window.title"
 msgstr "设置快捷键"
 
 #: src/prefs.ts:23
-#, fuzzy
 msgid "prefs.shortcut.window.label"
 msgstr "按下所需的按键组合…"
 
 #: src/prefs.ts:24
-#, fuzzy
 msgid "prefs.shortcut.captured"
 msgstr "已捕获：%s"
 
 #: src/prefs.ts:25
-#, fuzzy
 msgid "prefs.shortcut.invalid"
 msgstr "无效的组合"
 
 #: src/prefs.ts:26
-#, fuzzy
 msgid "prefs.shortcut.need_key"
 msgstr "需要按下一个普通按键（而不仅仅是修饰键）"
 
 # Dialog buttons
 #: src/prefs.ts:28
-#, fuzzy
 msgid "prefs.shortcut.window.button_cancel"
 msgstr "取消"
 
 #: src/prefs.ts:29
-#, fuzzy
 msgid "prefs.shortcut.window.button_set"
 msgstr "设置"
 
 # Quick settings button title
 #: src/toggle.ts:9
-#, fuzzy
 msgid "toggle.title"
 msgstr "触摸板"
 
 # Quick settings button enabled state subtitle
 #: src/toggle.ts:10
-#, fuzzy
 msgid "toggle.subtitle.enabled"
 msgstr "已启用"
 
 # Quick settings button mouse only state subtitle
 #: src/toggle.ts:11
-#, fuzzy
 msgid "toggle.subtitle.mouseonly"
 msgstr "仅鼠标"
 
 # Quick settings button disabled state subtitle
 #: src/toggle.ts:12
-#, fuzzy
 msgid "toggle.subtitle.disabled"
 msgstr "已禁用"
 
 # Quick settings popup title
 #: src/toggle.ts:14
-#, fuzzy
 msgid "toggle.popup.title"
 msgstr "触摸板设置"
 
 # Quick settings popup options
 #: src/toggle.ts:15
-#, fuzzy
 msgid "toggle.popup.option.enabled"
 msgstr "已启用"
 
 #: src/toggle.ts:16
-#, fuzzy
 msgid "toggle.popup.option.mouseonly"
 msgstr "连接外部鼠标时关闭"
 
 #: src/toggle.ts:17
-#, fuzzy
 msgid "toggle.popup.option.disabled"
 msgstr "已禁用"

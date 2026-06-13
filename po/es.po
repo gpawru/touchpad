@@ -1,5 +1,4 @@
 # Spanish translation for touchpad@gpawru.
-# Copyright (C) 2026 touchpad@gpawru
 # This file is distributed under the same license as the touchpad@gpawru package.
 #
 msgid ""
@@ -18,135 +17,111 @@ msgstr ""
 
 # Extension settings window title
 #: src/prefs.ts:8
-#, fuzzy
 msgid "prefs.window.title"
 msgstr "Preferencias de Touchpad Switcher"
 
 # Extension settings appearance block title
 #: src/prefs.ts:11
-#, fuzzy
 msgid "prefs.group.appearance.title"
 msgstr "Apariencia"
 
 # Extension settings appearance block subtitle
 #: src/prefs.ts:12
-#, fuzzy
 msgid "prefs.group.appearance.description"
 msgstr "Configurar la apariencia de Touchpad Switcher"
 
 # Extension settings "Show indicator" option title
 #: src/prefs.ts:14
-#, fuzzy
 msgid "prefs.show_indicator.title"
 msgstr "Mostrar indicador"
 
 # Extension settings "Show Indicator" option subtitle
 #: src/prefs.ts:15
-#, fuzzy
 msgid "prefs.show_indicator.subtitle"
 msgstr "Si se muestra el indicador en el panel"
 
 # Keyboard shortcut group title
 #: src/prefs.ts:17
-#, fuzzy
 msgid "prefs.shortcut.group.title"
 msgstr "Atajo de teclado"
 
 # Keyboard shortcut group description
 #: src/prefs.ts:18
-#, fuzzy
 msgid "prefs.shortcut.group.description"
 msgstr "Asignar un atajo de teclado para alternar rápidamente el panel táctil"
 
 #: src/prefs.ts:19
-#, fuzzy
 msgid "prefs.shortcut.set"
 msgstr "Establecer atajo…"
 
 #: src/prefs.ts:20
-#, fuzzy
 msgid "prefs.shortcut.reset"
 msgstr "Restablecer"
 
 # Shortcut capture dialog
 #: src/prefs.ts:22
-#, fuzzy
 msgid "prefs.shortcut.window.title"
 msgstr "Establecer atajo"
 
 #: src/prefs.ts:23
-#, fuzzy
 msgid "prefs.shortcut.window.label"
 msgstr "Pulse la combinación de teclas deseada…"
 
 #: src/prefs.ts:24
-#, fuzzy
 msgid "prefs.shortcut.captured"
 msgstr "Capturado: %s"
 
 #: src/prefs.ts:25
-#, fuzzy
 msgid "prefs.shortcut.invalid"
 msgstr "Combinación no válida"
 
 #: src/prefs.ts:26
-#, fuzzy
 msgid "prefs.shortcut.need_key"
 msgstr "Debe pulsar una tecla normal (no solo modificadores)"
 
 # Dialog buttons
 #: src/prefs.ts:28
-#, fuzzy
 msgid "prefs.shortcut.window.button_cancel"
 msgstr "Cancelar"
 
 #: src/prefs.ts:29
-#, fuzzy
 msgid "prefs.shortcut.window.button_set"
 msgstr "Establecer"
 
 # Quick settings button title
 #: src/toggle.ts:9
-#, fuzzy
 msgid "toggle.title"
 msgstr "Panel táctil"
 
 # Quick settings button enabled state subtitle
 #: src/toggle.ts:10
-#, fuzzy
 msgid "toggle.subtitle.enabled"
 msgstr "Activado"
 
 # Quick settings button mouse only state subtitle
 #: src/toggle.ts:11
-#, fuzzy
 msgid "toggle.subtitle.mouseonly"
 msgstr "Solo ratón"
 
 # Quick settings button disabled state subtitle
 #: src/toggle.ts:12
-#, fuzzy
 msgid "toggle.subtitle.disabled"
 msgstr "Desactivado"
 
 # Quick settings popup title
 #: src/toggle.ts:14
-#, fuzzy
 msgid "toggle.popup.title"
 msgstr "Ajustes del panel táctil"
 
 # Quick settings popup options
 #: src/toggle.ts:15
-#, fuzzy
 msgid "toggle.popup.option.enabled"
 msgstr "Activado"
 
 #: src/toggle.ts:16
-#, fuzzy
 msgid "toggle.popup.option.mouseonly"
 msgstr "Desactivado con ratón externo"
 
 #: src/toggle.ts:17
-#, fuzzy
 msgid "toggle.popup.option.disabled"
 msgstr "Desactivado"

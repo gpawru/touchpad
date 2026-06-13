@@ -43,57 +43,46 @@ msgid "prefs.show_indicator.subtitle"
 msgstr "Jestli zobrazit ukazatel v panelu"
 
 #: src/prefs.ts:17
-#, fuzzy
 msgid "prefs.shortcut.group.title"
 msgstr "Klávesová zkratka"
 
 #: src/prefs.ts:18
-#, fuzzy
 msgid "prefs.shortcut.group.description"
 msgstr "Přiřaďte klávesovou zkratku pro rychlé přepínání touchpadu"
 
 #: src/prefs.ts:19
-#, fuzzy
 msgid "prefs.shortcut.set"
 msgstr "Nastavit zkratku…"
 
 #: src/prefs.ts:20
-#, fuzzy
 msgid "prefs.shortcut.reset"
 msgstr "Obnovit"
 
 #: src/prefs.ts:22
-#, fuzzy
 msgid "prefs.shortcut.window.title"
 msgstr "Nastavit zkratku"
 
 #: src/prefs.ts:23
-#, fuzzy
 msgid "prefs.shortcut.window.label"
 msgstr "Stiskněte požadovanou kombinaci kláves…"
 
 #: src/prefs.ts:24
-#, fuzzy
 msgid "prefs.shortcut.captured"
 msgstr "Zachyceno: %s"
 
 #: src/prefs.ts:25
-#, fuzzy
 msgid "prefs.shortcut.invalid"
 msgstr "Neplatná kombinace"
 
 #: src/prefs.ts:26
-#, fuzzy
 msgid "prefs.shortcut.need_key"
 msgstr "Je třeba stisknout normální klávesu (ne jen modifikátory)"
 
 #: src/prefs.ts:28
-#, fuzzy
 msgid "prefs.shortcut.window.button_cancel"
 msgstr "Zrušit"
 
 #: src/prefs.ts:29
-#, fuzzy
 msgid "prefs.shortcut.window.button_set"
 msgstr "Nastavit"
 
