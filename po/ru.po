@@ -5,7 +5,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: 1.1.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-10-12 16:58+0300\n"
+"POT-Creation-Date: 2026-06-13 13:18+0300\n"
 "PO-Revision-Date: 2024-10-12 21:15+0300\n"
 "Last-Translator: Anton <anton@gpaw.ru>\n"
 "Language-Team: Russian <anton@gpaw.ru>\n"
@@ -22,66 +22,114 @@ msgstr ""
 "X-DL-Domain: \n"
 
 # Extension settings window title
-#: src/prefs.ts:7
+#: src/prefs.ts:8
 msgid "prefs.window.title"
 msgstr "Настройки Touchpad Switcher"
 
 # Extension settings appearance block title
-#: src/prefs.ts:10
+#: src/prefs.ts:11
 msgid "prefs.group.appearance.title"
 msgstr "Отображение"
 
 # Extension settings appearance block subtitle
-#: src/prefs.ts:11
+#: src/prefs.ts:12
 msgid "prefs.group.appearance.description"
 msgstr "Настройки отображения расширения Touchpad Switcher"
 
 # Extension settings "Show indicator" option title
-#: src/prefs.ts:13
+#: src/prefs.ts:14
 msgid "prefs.show_indicator.title"
 msgstr "Показывать иконку"
 
 # Extension settings "Show Indicator" option subtitle
-#: src/prefs.ts:14
+#: src/prefs.ts:15
 msgid "prefs.show_indicator.subtitle"
 msgstr "Показывать иконку состояния в системном трее"
 
+# Keyboard shortcut group title
+#: src/prefs.ts:17
+msgid "prefs.shortcut.group.title"
+msgstr "Клавиатурная комбинация"
+
+# Keyboard shortcut group description
+#: src/prefs.ts:18
+msgid "prefs.shortcut.group.description"
+msgstr "Назначить комбинацию клавиш для быстрого переключения тачпада"
+
+#: src/prefs.ts:19
+msgid "prefs.shortcut.set"
+msgstr "Установить комбинацию…"
+
+#: src/prefs.ts:20
+msgid "prefs.shortcut.reset"
+msgstr "Сбросить"
+
+# Shortcut capture dialog
+#: src/prefs.ts:22
+msgid "prefs.shortcut.window.title"
+msgstr "Установить комбинацию"
+
+#: src/prefs.ts:23
+msgid "prefs.shortcut.window.label"
+msgstr "Нажмите желаемую комбинацию клавиш…"
+
+#: src/prefs.ts:24
+msgid "prefs.shortcut.captured"
+msgstr "Захвачено: %s"
+
+#: src/prefs.ts:25
+msgid "prefs.shortcut.invalid"
+msgstr "Недопустимая комбинация"
+
+#: src/prefs.ts:26
+msgid "prefs.shortcut.need_key"
+msgstr "Нужно нажать обычную клавишу (не только модификатор)"
+
+# Dialog buttons
+#: src/prefs.ts:28
+msgid "prefs.shortcut.window.button_cancel"
+msgstr "Отмена"
+
+#: src/prefs.ts:29
+msgid "prefs.shortcut.window.button_set"
+msgstr "Установить"
+
 # Quick settings button title
-#: src/toggle.ts:17
+#: src/toggle.ts:9
 msgid "toggle.title"
 msgstr "Тачпад"
 
 # Quick settings button enabled state subtitle. Must be short to fit.
-#: src/toggle.ts:18
+#: src/toggle.ts:10
 msgid "toggle.subtitle.enabled"
 msgstr "Включён"
 
 # Quick settings button mouse only state subtitle. Must be short to fit.
-#: src/toggle.ts:19
+#: src/toggle.ts:11
 msgid "toggle.subtitle.mouseonly"
 msgstr "Только мышь"
 
 # Quick settings button disabled state subtitle. Must be short to fit.
-#: src/toggle.ts:20
+#: src/toggle.ts:12
 msgid "toggle.subtitle.disabled"
 msgstr "Выключен"
 
 # Quick settings popup title
-#: src/toggle.ts:22
+#: src/toggle.ts:14
 msgid "toggle.popup.title"
 msgstr "Настройки тачпада"
 
 # Quick settings popup "Enabled" option
-#: src/toggle.ts:23
+#: src/toggle.ts:15
 msgid "toggle.popup.option.enabled"
 msgstr "Включён"
 
 # Quick settings popup "Off with external mouse" option
-#: src/toggle.ts:24
+#: src/toggle.ts:16
 msgid "toggle.popup.option.mouseonly"
 msgstr "Отключён при подсоединённой мыши"
 
 # Quick settings popup "Disabled" option
-#: src/toggle.ts:25
+#: src/toggle.ts:17
 msgid "toggle.popup.option.disabled"
 msgstr "Выключен"

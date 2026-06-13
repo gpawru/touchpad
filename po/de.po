@@ -1,94 +1,92 @@
+# German translation for touchpad-switcher extension.
 # This file is distributed under the same license as the PACKAGE package.
-# Anton, 2024.
-# Thanks to @andrecesarvieira for this translation!
 #
 msgid ""
 msgstr ""
 "Project-Id-Version: 1.1.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2026-06-13 13:18+0300\n"
-"PO-Revision-Date: 2024-10-12 21:28+0300\n"
+"PO-Revision-Date: 2026-06-13 12:00+0200\n"
 "Last-Translator: Automatically translated <>\n"
-"Language-Team: Brazilian Portuguese <anton@gpaw.ru>\n"
-"Language: pt_BR\n"
+"Language-Team: German <>\n"
+"Language: de\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=2; plural=(n > 1);\n"
-"X-Generator: Gtranslator 46.0\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
 # Extension settings window title
 #: src/prefs.ts:8
 msgid "prefs.window.title"
-msgstr "Preferências do Touchpad Switcher"
+msgstr "Touchpad Switcher Einstellungen"
 
 # Extension settings appearance block title
 #: src/prefs.ts:11
 msgid "prefs.group.appearance.title"
-msgstr "Aparência"
+msgstr "Erscheinungsbild"
 
 # Extension settings appearance block subtitle
 #: src/prefs.ts:12
 msgid "prefs.group.appearance.description"
-msgstr "Configure a aparência do Touchpad Switcher"
+msgstr "Das Aussehen von Touchpad Switcher anpassen"
 
 # Extension settings "Show indicator" option title
 #: src/prefs.ts:14
 msgid "prefs.show_indicator.title"
-msgstr "Mostrar ícone no painel"
+msgstr "Anzeige im Panel"
 
 # Extension settings "Show Indicator" option subtitle
 #: src/prefs.ts:15
 msgid "prefs.show_indicator.subtitle"
-msgstr "Selecione para mostrar o ícone no painel"
+msgstr "Legt fest, ob das Panel-Symbol angezeigt wird"
 
 # Keyboard shortcut group title
 #: src/prefs.ts:17
 msgid "prefs.shortcut.group.title"
-msgstr "Atalho de teclado"
+msgstr "Tastenkombination"
 
 # Keyboard shortcut group description
 #: src/prefs.ts:18
 msgid "prefs.shortcut.group.description"
-msgstr "Atribuir um atalho de teclado para alternar rapidamente o touchpad"
+msgstr "Eine Tastenkombination zum schnellen Umschalten des Touchpads festlegen"
 
 #: src/prefs.ts:19
 msgid "prefs.shortcut.set"
-msgstr "Definir atalho…"
+msgstr "Tastenkombination festlegen…"
 
 #: src/prefs.ts:20
 msgid "prefs.shortcut.reset"
-msgstr "Redefinir"
+msgstr "Zurücksetzen"
 
 # Shortcut capture dialog
 #: src/prefs.ts:22
 msgid "prefs.shortcut.window.title"
-msgstr "Definir atalho"
+msgstr "Tastenkombination festlegen"
 
 #: src/prefs.ts:23
 msgid "prefs.shortcut.window.label"
-msgstr "Pressione a combinação de teclas desejada…"
+msgstr "Gewünschte Tastenkombination drücken…"
 
 #: src/prefs.ts:24
 msgid "prefs.shortcut.captured"
-msgstr "Capturado: %s"
+msgstr "Erfasst: %s"
 
 #: src/prefs.ts:25
 msgid "prefs.shortcut.invalid"
-msgstr "Combinação inválida"
+msgstr "Ungültige Kombination"
 
 #: src/prefs.ts:26
 msgid "prefs.shortcut.need_key"
-msgstr "É necessário pressionar uma tecla normal (não apenas modificadores)"
+msgstr "Bitte eine normale Taste drücken (nicht nur Modifikatoren)"
 
 # Dialog buttons
 #: src/prefs.ts:28
 msgid "prefs.shortcut.window.button_cancel"
-msgstr "Cancelar"
+msgstr "Abbrechen"
 
 #: src/prefs.ts:29
 msgid "prefs.shortcut.window.button_set"
-msgstr "Definir"
+msgstr "Festlegen"
 
 # Quick settings button title
 #: src/toggle.ts:9
@@ -98,32 +96,32 @@ msgstr "Touchpad"
 # Quick settings button enabled state subtitle
 #: src/toggle.ts:10
 msgid "toggle.subtitle.enabled"
-msgstr "Habilitado"
+msgstr "Aktiviert"
 
 # Quick settings button mouse only state subtitle
 #: src/toggle.ts:11
 msgid "toggle.subtitle.mouseonly"
-msgstr "Apenas o mouse"
+msgstr "Nur Maus"
 
 # Quick settings button disabled state subtitle
 #: src/toggle.ts:12
 msgid "toggle.subtitle.disabled"
-msgstr "Desabilitado"
+msgstr "Deaktiviert"
 
 # Quick settings popup title
 #: src/toggle.ts:14
 msgid "toggle.popup.title"
-msgstr "Configurações do Touchpad"
+msgstr "Touchpad-Einstellungen"
 
 # Quick settings popup options
 #: src/toggle.ts:15
 msgid "toggle.popup.option.enabled"
-msgstr "Habilitado"
+msgstr "Aktiviert"
 
 #: src/toggle.ts:16
 msgid "toggle.popup.option.mouseonly"
-msgstr "Desativado ao utilizar mouse externo"
+msgstr "Aus bei externer Maus"
 
 #: src/toggle.ts:17
 msgid "toggle.popup.option.disabled"
-msgstr "Desabilitado"
+msgstr "Deaktiviert"

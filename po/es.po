@@ -1,125 +1,152 @@
-# Hungarian translation for touchpad@gpawru.
-# Copyright (C) 2024 touchpad@gpawru
+# Spanish translation for touchpad@gpawru.
+# Copyright (C) 2026 touchpad@gpawru
 # This file is distributed under the same license as the touchpad@gpawru package.
-# FIRST AUTHOR: ViBE <vibe@protonmail.com>, 2024.
 #
 msgid ""
 msgstr ""
-"Project-Id-Version: 1.1.1\n"
+"Project-Id-Version: 1.1.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2026-06-13 13:18+0300\n"
-"PO-Revision-Date: 2024-10-17 00:18+0200\n"
-"Last-Translator: Automatically translated <>\n"
-"Language-Team: Hungarian <vibe@protonmail.com>\n"
-"Language: hu\n"
+"PO-Revision-Date: 2026-06-13 12:00+0200\n"
+"Last-Translator: Automatically generated <>\n"
+"Language-Team: Spanish <>\n"
+"Language: es\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
+# Extension settings window title
 #: src/prefs.ts:8
+#, fuzzy
 msgid "prefs.window.title"
-msgstr "Érintőtábla-kapcsoló"
+msgstr "Preferencias de Touchpad Switcher"
 
+# Extension settings appearance block title
 #: src/prefs.ts:11
+#, fuzzy
 msgid "prefs.group.appearance.title"
-msgstr "Megjelenés"
+msgstr "Apariencia"
 
+# Extension settings appearance block subtitle
 #: src/prefs.ts:12
+#, fuzzy
 msgid "prefs.group.appearance.description"
-msgstr "Érintőtábla-kapcsoló megjelenítése az értesítési területen"
+msgstr "Configurar la apariencia de Touchpad Switcher"
 
+# Extension settings "Show indicator" option title
 #: src/prefs.ts:14
+#, fuzzy
 msgid "prefs.show_indicator.title"
-msgstr "Állapotjelző ikon"
+msgstr "Mostrar indicador"
 
+# Extension settings "Show Indicator" option subtitle
 #: src/prefs.ts:15
+#, fuzzy
 msgid "prefs.show_indicator.subtitle"
-msgstr "Ikon megjelenítése az értesítési területen"
+msgstr "Si se muestra el indicador en el panel"
 
+# Keyboard shortcut group title
 #: src/prefs.ts:17
 #, fuzzy
 msgid "prefs.shortcut.group.title"
-msgstr "Billentyűparancs"
+msgstr "Atajo de teclado"
 
+# Keyboard shortcut group description
 #: src/prefs.ts:18
 #, fuzzy
 msgid "prefs.shortcut.group.description"
-msgstr "Gyorsbillentyű hozzárendelése az érintőtábla gyors átkapcsolásához"
+msgstr "Asignar un atajo de teclado para alternar rápidamente el panel táctil"
 
 #: src/prefs.ts:19
 #, fuzzy
 msgid "prefs.shortcut.set"
-msgstr "Billentyűkombináció beállítása…"
+msgstr "Establecer atajo…"
 
 #: src/prefs.ts:20
 #, fuzzy
 msgid "prefs.shortcut.reset"
-msgstr "Visszaállítás"
+msgstr "Restablecer"
 
+# Shortcut capture dialog
 #: src/prefs.ts:22
 #, fuzzy
 msgid "prefs.shortcut.window.title"
-msgstr "Billentyűkombináció beállítása"
+msgstr "Establecer atajo"
 
 #: src/prefs.ts:23
 #, fuzzy
 msgid "prefs.shortcut.window.label"
-msgstr "Nyomja meg a kívánt billentyűkombinációt…"
+msgstr "Pulse la combinación de teclas deseada…"
 
 #: src/prefs.ts:24
 #, fuzzy
 msgid "prefs.shortcut.captured"
-msgstr "Rögzítve: %s"
+msgstr "Capturado: %s"
 
 #: src/prefs.ts:25
 #, fuzzy
 msgid "prefs.shortcut.invalid"
-msgstr "Érvénytelen kombináció"
+msgstr "Combinación no válida"
 
 #: src/prefs.ts:26
 #, fuzzy
 msgid "prefs.shortcut.need_key"
-msgstr "Normál billentyűt kell lenyomnia (nem csak módosítókat)"
+msgstr "Debe pulsar una tecla normal (no solo modificadores)"
 
+# Dialog buttons
 #: src/prefs.ts:28
 #, fuzzy
 msgid "prefs.shortcut.window.button_cancel"
-msgstr "Mégse"
+msgstr "Cancelar"
 
 #: src/prefs.ts:29
 #, fuzzy
 msgid "prefs.shortcut.window.button_set"
-msgstr "Beállítás"
+msgstr "Establecer"
 
+# Quick settings button title
 #: src/toggle.ts:9
+#, fuzzy
 msgid "toggle.title"
-msgstr "Érintőtábla"
+msgstr "Panel táctil"
 
+# Quick settings button enabled state subtitle
 #: src/toggle.ts:10
+#, fuzzy
 msgid "toggle.subtitle.enabled"
-msgstr "Bekapcsolva"
+msgstr "Activado"
 
+# Quick settings button mouse only state subtitle
 #: src/toggle.ts:11
+#, fuzzy
 msgid "toggle.subtitle.mouseonly"
-msgstr "Csak egér"
+msgstr "Solo ratón"
 
+# Quick settings button disabled state subtitle
 #: src/toggle.ts:12
+#, fuzzy
 msgid "toggle.subtitle.disabled"
-msgstr "Kikapcsolva"
+msgstr "Desactivado"
 
+# Quick settings popup title
 #: src/toggle.ts:14
+#, fuzzy
 msgid "toggle.popup.title"
-msgstr "Érintőtábla beállításai"
+msgstr "Ajustes del panel táctil"
 
+# Quick settings popup options
 #: src/toggle.ts:15
+#, fuzzy
 msgid "toggle.popup.option.enabled"
-msgstr "Bekapcsolás"
+msgstr "Activado"
 
 #: src/toggle.ts:16
+#, fuzzy
 msgid "toggle.popup.option.mouseonly"
-msgstr "Kikapcsolás, ha egér csatlakozik"
+msgstr "Desactivado con ratón externo"
 
 #: src/toggle.ts:17
+#, fuzzy
 msgid "toggle.popup.option.disabled"
-msgstr "Kikapcsolás"
+msgstr "Desactivado"

@@ -1,129 +1,152 @@
-# This file is distributed under the same license as the PACKAGE package.
-# Anton, 2024.
-# Thanks to @andrecesarvieira for this translation!
+# Chinese (Simplified) translation for touchpad@gpawru.
+# Copyright (C) 2026 touchpad@gpawru
+# This file is distributed under the same license as the touchpad@gpawru package.
 #
 msgid ""
 msgstr ""
 "Project-Id-Version: 1.1.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2026-06-13 13:18+0300\n"
-"PO-Revision-Date: 2024-10-12 21:28+0300\n"
-"Last-Translator: Automatically translated <>\n"
-"Language-Team: Brazilian Portuguese <anton@gpaw.ru>\n"
-"Language: pt_BR\n"
+"PO-Revision-Date: 2026-06-13 12:00+0800\n"
+"Last-Translator: Automatically generated <>\n"
+"Language-Team: Chinese (Simplified) <>\n"
+"Language: zh_CN\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=2; plural=(n > 1);\n"
-"X-Generator: Gtranslator 46.0\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
 
 # Extension settings window title
 #: src/prefs.ts:8
+#, fuzzy
 msgid "prefs.window.title"
-msgstr "Preferências do Touchpad Switcher"
+msgstr "Touchpad Switcher 首选项"
 
 # Extension settings appearance block title
 #: src/prefs.ts:11
+#, fuzzy
 msgid "prefs.group.appearance.title"
-msgstr "Aparência"
+msgstr "外观"
 
 # Extension settings appearance block subtitle
 #: src/prefs.ts:12
+#, fuzzy
 msgid "prefs.group.appearance.description"
-msgstr "Configure a aparência do Touchpad Switcher"
+msgstr "配置 Touchpad Switcher 的外观"
 
 # Extension settings "Show indicator" option title
 #: src/prefs.ts:14
+#, fuzzy
 msgid "prefs.show_indicator.title"
-msgstr "Mostrar ícone no painel"
+msgstr "显示指示器"
 
 # Extension settings "Show Indicator" option subtitle
 #: src/prefs.ts:15
+#, fuzzy
 msgid "prefs.show_indicator.subtitle"
-msgstr "Selecione para mostrar o ícone no painel"
+msgstr "是否在面板中显示指示器"
 
 # Keyboard shortcut group title
 #: src/prefs.ts:17
+#, fuzzy
 msgid "prefs.shortcut.group.title"
-msgstr "Atalho de teclado"
+msgstr "键盘快捷键"
 
 # Keyboard shortcut group description
 #: src/prefs.ts:18
+#, fuzzy
 msgid "prefs.shortcut.group.description"
-msgstr "Atribuir um atalho de teclado para alternar rapidamente o touchpad"
+msgstr "分配一个键盘快捷键以快速切换触摸板"
 
 #: src/prefs.ts:19
+#, fuzzy
 msgid "prefs.shortcut.set"
-msgstr "Definir atalho…"
+msgstr "设置快捷键…"
 
 #: src/prefs.ts:20
+#, fuzzy
 msgid "prefs.shortcut.reset"
-msgstr "Redefinir"
+msgstr "重置"
 
 # Shortcut capture dialog
 #: src/prefs.ts:22
+#, fuzzy
 msgid "prefs.shortcut.window.title"
-msgstr "Definir atalho"
+msgstr "设置快捷键"
 
 #: src/prefs.ts:23
+#, fuzzy
 msgid "prefs.shortcut.window.label"
-msgstr "Pressione a combinação de teclas desejada…"
+msgstr "按下所需的按键组合…"
 
 #: src/prefs.ts:24
+#, fuzzy
 msgid "prefs.shortcut.captured"
-msgstr "Capturado: %s"
+msgstr "已捕获：%s"
 
 #: src/prefs.ts:25
+#, fuzzy
 msgid "prefs.shortcut.invalid"
-msgstr "Combinação inválida"
+msgstr "无效的组合"
 
 #: src/prefs.ts:26
+#, fuzzy
 msgid "prefs.shortcut.need_key"
-msgstr "É necessário pressionar uma tecla normal (não apenas modificadores)"
+msgstr "需要按下一个普通按键（而不仅仅是修饰键）"
 
 # Dialog buttons
 #: src/prefs.ts:28
+#, fuzzy
 msgid "prefs.shortcut.window.button_cancel"
-msgstr "Cancelar"
+msgstr "取消"
 
 #: src/prefs.ts:29
+#, fuzzy
 msgid "prefs.shortcut.window.button_set"
-msgstr "Definir"
+msgstr "设置"
 
 # Quick settings button title
 #: src/toggle.ts:9
+#, fuzzy
 msgid "toggle.title"
-msgstr "Touchpad"
+msgstr "触摸板"
 
 # Quick settings button enabled state subtitle
 #: src/toggle.ts:10
+#, fuzzy
 msgid "toggle.subtitle.enabled"
-msgstr "Habilitado"
+msgstr "已启用"
 
 # Quick settings button mouse only state subtitle
 #: src/toggle.ts:11
+#, fuzzy
 msgid "toggle.subtitle.mouseonly"
-msgstr "Apenas o mouse"
+msgstr "仅鼠标"
 
 # Quick settings button disabled state subtitle
 #: src/toggle.ts:12
+#, fuzzy
 msgid "toggle.subtitle.disabled"
-msgstr "Desabilitado"
+msgstr "已禁用"
 
 # Quick settings popup title
 #: src/toggle.ts:14
+#, fuzzy
 msgid "toggle.popup.title"
-msgstr "Configurações do Touchpad"
+msgstr "触摸板设置"
 
 # Quick settings popup options
 #: src/toggle.ts:15
+#, fuzzy
 msgid "toggle.popup.option.enabled"
-msgstr "Habilitado"
+msgstr "已启用"
 
 #: src/toggle.ts:16
+#, fuzzy
 msgid "toggle.popup.option.mouseonly"
-msgstr "Desativado ao utilizar mouse externo"
+msgstr "连接外部鼠标时关闭"
 
 #: src/toggle.ts:17
+#, fuzzy
 msgid "toggle.popup.option.disabled"
-msgstr "Desabilitado"
+msgstr "已禁用"

@@ -5,83 +5,124 @@ msgid ""
 msgstr ""
 "Project-Id-Version: 1.1.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-10-12 16:58+0300\n"
+"POT-Creation-Date: 2026-06-13 13:18+0300\n"
 "PO-Revision-Date: 2024-10-12 21:28+0300\n"
-"Last-Translator: Anton <anton@gpaw.ru>\n"
+"Last-Translator: Automatically translated <>\n"
 "Language-Team: English <anton@gpaw.ru>\n"
 "Language: en\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && "
-"n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
 "X-Generator: Gtranslator 46.0\n"
-"X-DL-Lang: English\n"
-"X-DL-Module: \n"
-"X-DL-Branch: \n"
-"X-DL-Domain: \n"
 
 # Extension settings window title
-#: src/prefs.ts:7
+#: src/prefs.ts:8
 msgid "prefs.window.title"
-msgstr "Touchpad Switcher"
+msgstr "Touchpad Switcher preferences"
 
 # Extension settings appearance block title
-#: src/prefs.ts:10
+#: src/prefs.ts:11
 msgid "prefs.group.appearance.title"
 msgstr "Appearance"
 
 # Extension settings appearance block subtitle
-#: src/prefs.ts:11
+#: src/prefs.ts:12
 msgid "prefs.group.appearance.description"
 msgstr "Configure the appearance of Touchpad Switcher"
 
 # Extension settings "Show indicator" option title
-#: src/prefs.ts:13
+#: src/prefs.ts:14
 msgid "prefs.show_indicator.title"
 msgstr "Show indicator"
 
 # Extension settings "Show Indicator" option subtitle
-#: src/prefs.ts:14
+#: src/prefs.ts:15
 msgid "prefs.show_indicator.subtitle"
 msgstr "Whether to show the panel indicator"
 
+# Keyboard shortcut group title
+#: src/prefs.ts:17
+msgid "prefs.shortcut.group.title"
+msgstr "Keyboard shortcut"
+
+# Keyboard shortcut group description
+#: src/prefs.ts:18
+msgid "prefs.shortcut.group.description"
+msgstr "Assign a keyboard shortcut to quickly toggle the touchpad"
+
+#: src/prefs.ts:19
+msgid "prefs.shortcut.set"
+msgstr "Set shortcut…"
+
+#: src/prefs.ts:20
+msgid "prefs.shortcut.reset"
+msgstr "Reset"
+
+# Shortcut capture dialog
+#: src/prefs.ts:22
+msgid "prefs.shortcut.window.title"
+msgstr "Set shortcut"
+
+#: src/prefs.ts:23
+msgid "prefs.shortcut.window.label"
+msgstr "Press the desired key combination…"
+
+#: src/prefs.ts:24
+msgid "prefs.shortcut.captured"
+msgstr "Captured: %s"
+
+#: src/prefs.ts:25
+msgid "prefs.shortcut.invalid"
+msgstr "Invalid combination"
+
+#: src/prefs.ts:26
+msgid "prefs.shortcut.need_key"
+msgstr "You need to press a regular key (not just modifiers)"
+
+# Dialog buttons
+#: src/prefs.ts:28
+msgid "prefs.shortcut.window.button_cancel"
+msgstr "Cancel"
+
+#: src/prefs.ts:29
+msgid "prefs.shortcut.window.button_set"
+msgstr "Set"
+
 # Quick settings button title
-#: src/toggle.ts:17
+#: src/toggle.ts:9
 msgid "toggle.title"
 msgstr "Touchpad"
 
-# Quick settings button enabled state subtitle. Must be short to fit.
-#: src/toggle.ts:18
+# Quick settings button enabled state subtitle
+#: src/toggle.ts:10
 msgid "toggle.subtitle.enabled"
 msgstr "Enabled"
 
-# Quick settings button mouse only state subtitle. Must be short to fit.
-#: src/toggle.ts:19 
+# Quick settings button mouse only state subtitle
+#: src/toggle.ts:11
 msgid "toggle.subtitle.mouseonly"
 msgstr "Mouse only"
 
-# Quick settings button disabled state subtitle. Must be short to fit.
-#: src/toggle.ts:20
+# Quick settings button disabled state subtitle
+#: src/toggle.ts:12
 msgid "toggle.subtitle.disabled"
 msgstr "Disabled"
 
 # Quick settings popup title
-#: src/toggle.ts:22
+#: src/toggle.ts:14
 msgid "toggle.popup.title"
 msgstr "Touchpad settings"
 
-# Quick settings popup "Enabled" option
-#: src/toggle.ts:23
+# Quick settings popup options
+#: src/toggle.ts:15
 msgid "toggle.popup.option.enabled"
 msgstr "Enabled"
 
-# Quick settings popup "Off with external mouse" option
-#: src/toggle.ts:24
+#: src/toggle.ts:16
 msgid "toggle.popup.option.mouseonly"
 msgstr "Off with external mouse"
 
-# Quick settings popup "Disabled" option
-#: src/toggle.ts:25
+#: src/toggle.ts:17
 msgid "toggle.popup.option.disabled"
 msgstr "Disabled"
