@@ -5,6 +5,9 @@
     <key name="show-indicator" type="b">
       <default>true</default>
     </key>
-    
+
+    <key name="shortcut" type="as">
+        <default>[]</default>
+    </key>
   </schema>
 </schemalist>
