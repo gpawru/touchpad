@@ -1,34 +1,55 @@
 NAME = touchpad@gpawru
 SCHEMA_NAME = touchpad_gpawru
+
 EXTENSION_DIR = $(HOME)/.local/share/gnome-shell/extensions/$(NAME)
+
+BUILD_DIR = .build
+RELEASE_DIR = .release
 PACK_NAME = $(NAME).shell-extension.zip
 
-.PHONY: run all pack install clean
+SCHEMA_XML = schemas/org.gnome.shell.extensions.$(SCHEMA_NAME).gschema.xml
 
-all: .build/extension.js
+.PHONY: all build locale schemas pack install clean run
 
-node_modules: package.json
-	pnpm install
+all: pack
 
-.build/extension.js .build/prefs.js: node_modules
-	tsc
+build: clean
+	@mkdir -p $(BUILD_DIR)
 
-schemas/gschemas.compiled: schemas/org.gnome.shell.extensions.$(SCHEMA_NAME).gschema.xml
-	glib-compile-schemas schemas
+	# Extension sources
+	@cp metadata.json $(BUILD_DIR)
+	@cp src/*.js $(BUILD_DIR)
+	@cp LICENSE README.md $(BUILD_DIR)
 
-.release/$(PACK_NAME): .build/extension.js .build/prefs.js schemas/gschemas.compiled
-	@rm -rf .release && mkdir .release
-	@cp -r schemas .build/
-	@cp metadata.json .build/
-	@gnome-extensions pack .build --out-dir=.release --podir=./../po --force --extra-source=icon.js --extra-source=toggle.js --extra-source=types.js --extra-source=./../LICENSE --extra-source=./../README.md
+	# Schemas
+	@mkdir -p $(BUILD_DIR)/schemas
+	@cp $(SCHEMA_XML) $(BUILD_DIR)/schemas
+	@glib-compile-schemas $(BUILD_DIR)/schemas
 
-run:
-	env MUTTER_DEBUG_DUMMY_MODE_SPECS=1600x1080 dbus-run-session -- gnome-shell --nested --wayland
+	# Translations
+	@mkdir -p $(BUILD_DIR)/locale
+	@for po in po/*.po; do \
+		lang=$$(basename $$po .po); \
+		mkdir -p $(BUILD_DIR)/locale/$$lang/LC_MESSAGES; \
+		msgfmt $$po \
+			-o $(BUILD_DIR)/locale/$$lang/LC_MESSAGES/$(NAME).mo; \
+	done
 
-pack: .release/$(PACK_NAME)
+pack: build
+	@rm -rf $(RELEASE_DIR)
+	@mkdir -p $(RELEASE_DIR)
 
-install: .release/$(PACK_NAME)
-	@gnome-extensions install .release/$(PACK_NAME) --force
+	@cd $(BUILD_DIR) && zip -qr ../$(RELEASE_DIR)/$(PACK_NAME) .
+
+install: build
+	@rm -rf $(EXTENSION_DIR)
+	@mkdir -p $(EXTENSION_DIR)
+	@cp -a $(BUILD_DIR)/. $(EXTENSION_DIR)
 
 clean:
-	@rm -rf .build node_modules .release
+	@rm -rf $(BUILD_DIR) $(RELEASE_DIR)
+
+run:
+	env MUTTER_DEBUG_DUMMY_MODE_SPECS=1600x1080 \
+		dbus-run-session -- \
+		gnome-shell --nested --wayland
