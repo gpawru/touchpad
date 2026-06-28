@@ -4,7 +4,7 @@
     "description": "Touchpad Switcher allows you to easily toggle the touchpad on and off via the GNOME quick settings menu. It also includes an optional indicator to display the current touchpad state in the system tray.\n\nP.S. extension icon by icons8.com",
     "version": "1.1.8-legacy",
     "shell-version": ["42", "43", "44"],
-    "url": "https://github.com/gpawru/touchpad",
+    "url": "https://github.com/yanttech/touchpad",
     "settings-schema": "org.gnome.shell.extensions.touchpad_gpawru",
     "gettext-domain": "touchpad@gpawru"
 }

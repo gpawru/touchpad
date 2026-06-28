@@ -6,12 +6,12 @@
     "private": true,
     "repository": {
         "type": "git",
-        "url": "git+https://github.com/gpawru/touchpad.git"
+        "url": "git+https://github.com/yanttech/touchpad.git"
     },
-    "author": "Anton <anton@gpaw.ru>",
+    "author": "Tony <tony@yant.tech>",
     "license": "MIT",
     "bugs": {
-        "url": "https://github.com/gpawru/touchpad/issues"
+        "url": "https://github.com/yanttech/touchpad/issues"
     },
-    "homepage": "https://github.com/gpawru/touchpad"
+    "homepage": "https://github.com/yanttech/touchpad"
 }
