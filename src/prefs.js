@@ -8,8 +8,6 @@ const Gettext = imports.gettext.domain('touchpad@gpawru');
 
 const ExtensionUtils = imports.misc.extensionUtils;
 
-let settings;
-
 const PREFS_WINDOW_TITLE = _('prefs.window.title', 'Touchpad switcher preferences');
 
 const PREFS_SHORTCUT_GROUP_TITLE = _('prefs.shortcut.group.title', 'Keyboard shortcut');
@@ -32,9 +30,7 @@ function init() {
 }
 
 function buildPrefsWidget() {
-    settings = new Gio.Settings({
-        schema_id: 'org.gnome.shell.extensions.touchpad_gpawru'
-    });
+    const settings = ExtensionUtils.getSettings();
 
     const root = new Gtk.Box({
         orientation: Gtk.Orientation.VERTICAL,
@@ -52,14 +48,14 @@ function buildPrefsWidget() {
         return false;
     });
 
-    root.append(_shortcutGroup());
+    root.append(_shortcutGroup(settings));
 
     root.show();
     return root;
 }
 
 // Keyboard shortcut.
-function _shortcutGroup() {
+function _shortcutGroup(settings) {
     const shortcutGroup = new Gtk.Box({
         orientation: Gtk.Orientation.VERTICAL,
         spacing: 6,
@@ -101,10 +97,12 @@ function _shortcutGroup() {
     });
 
     const shortcutValue = new Gtk.Label({
-        label: getShortcut(),
+        label: getShortcut(settings),
     });
 
-    setButton.connect('clicked', () => openShortcutDialog(shortcutGroup, shortcutValue));
+    setButton.connect('clicked', () =>
+        openShortcutDialog(shortcutGroup, settings, shortcutValue)
+    );
 
     resetButton.connect('clicked', () => {
         settings.set_strv('shortcut', []);
@@ -120,13 +118,13 @@ function _shortcutGroup() {
     return shortcutGroup;
 }
 
-function getShortcut() {
+function getShortcut(settings) {
     const v = settings.get_strv('shortcut');
     return v.length ? v[0] : '';
 }
 
 // Shortcut dialog.
-function openShortcutDialog(parent, labelWidget) {
+function openShortcutDialog(parent, settings, labelWidget) {
     const dialog = new Gtk.Dialog({
         title: PREFS_SHORTCUT_WINDOW_TITLE(),
         transient_for: parent.get_root(),
