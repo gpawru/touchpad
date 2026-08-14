@@ -1,0 +1,133 @@
+# French translation for touchpad@gpawru.
+# This file is distributed under the same license as the touchpad@gpawru package.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: 1.1.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-06-13 13:18+0300\n"
+"PO-Revision-Date: 2026-08-11 00:00+0200\n"
+"Last-Translator: Automatically translated <>\n"
+"Last-Translator: Ax4M3\n"
+"Language-Team: Français <>\n"
+"Language: fr\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+"X-Generator: Gtranslator 46.0\n"
+"X-DL-Lang: French\n"
+"X-DL-Module: \n"
+"X-DL-Branch: \n"
+"X-DL-Domain: \n"
+
+# Extension settings window title
+#: src/prefs.ts:8
+msgid "prefs.window.title"
+msgstr "Préférences de Touchpad Switcher"
+
+# Extension settings appearance block title
+#: src/prefs.ts:11
+msgid "prefs.group.appearance.title"
+msgstr "Apparence"
+
+# Extension settings appearance block subtitle
+#: src/prefs.ts:12
+msgid "prefs.group.appearance.description"
+msgstr "Configurer l'apparence de Touchpad Switcher"
+
+# Extension settings "Show indicator" option title
+#: src/prefs.ts:14
+msgid "prefs.show_indicator.title"
+msgstr "Afficher l'indicateur"
+
+# Extension settings "Show Indicator" option subtitle
+#: src/prefs.ts:15
+msgid "prefs.show_indicator.subtitle"
+msgstr "Afficher ou non l'indicateur dans le panneau"
+
+# Keyboard shortcut group title
+#: src/prefs.ts:17
+msgid "prefs.shortcut.group.title"
+msgstr "Raccourci clavier"
+
+# Keyboard shortcut group description
+#: src/prefs.ts:18
+msgid "prefs.shortcut.group.description"
+msgstr "Attribuer un raccourci clavier pour activer/désactiver rapidement le pavé tactile"
+
+#: src/prefs.ts:19
+msgid "prefs.shortcut.set"
+msgstr "Définir le raccourci…"
+
+#: src/prefs.ts:20
+msgid "prefs.shortcut.reset"
+msgstr "Réinitialiser"
+
+# Shortcut capture dialog
+#: src/prefs.ts:22
+msgid "prefs.shortcut.window.title"
+msgstr "Définir le raccourci"
+
+#: src/prefs.ts:23
+msgid "prefs.shortcut.window.label"
+msgstr "Appuyez sur la combinaison de touches souhaitée…"
+
+#: src/prefs.ts:24
+msgid "prefs.shortcut.captured"
+msgstr "Capturé : %s"
+
+#: src/prefs.ts:25
+msgid "prefs.shortcut.invalid"
+msgstr "Combinaison invalide"
+
+#: src/prefs.ts:26
+msgid "prefs.shortcut.need_key"
+msgstr "Vous devez appuyer sur une touche standard (et pas seulement sur des touches de modification)"
+
+# Dialog buttons
+#: src/prefs.ts:28
+msgid "prefs.shortcut.window.button_cancel"
+msgstr "Annuler"
+
+#: src/prefs.ts:29
+msgid "prefs.shortcut.window.button_set"
+msgstr "Définir"
+
+# Quick settings button title
+#: src/toggle.ts:9
+msgid "toggle.title"
+msgstr "Pavé tactile"
+
+# Quick settings button enabled state subtitle
+#: src/toggle.ts:10
+msgid "toggle.subtitle.enabled"
+msgstr "Activé"
+
+# Quick settings button mouse only state subtitle
+#: src/toggle.ts:11
+msgid "toggle.subtitle.mouseonly"
+msgstr "Désactivé avec souris externe"
+
+# Quick settings button disabled state subtitle
+#: src/toggle.ts:12
+msgid "toggle.subtitle.disabled"
+msgstr "Désactivé"
+
+# Quick settings popup title
+#: src/toggle.ts:14
+msgid "toggle.popup.title"
+msgstr "Paramètres du pavé tactile"
+
+# Quick settings popup options
+#: src/toggle.ts:15
+msgid "toggle.popup.option.enabled"
+msgstr "Activé"
+
+#: src/toggle.ts:16
+msgid "toggle.popup.option.mouseonly"
+msgstr "Désactivé avec souris externe"
+
+#: src/toggle.ts:17
+msgid "toggle.popup.option.disabled"
+msgstr "Désactivé"
