@@ -17,6 +17,10 @@ The code is licensed under the MIT License. Feel free to use it as needed.
 
 ## Changelog
 
+### v1.1.9
+
+ * French translation (thanks to @Ax4M3 !)
+
 ### v1.1.8
 
  * Added configurable keyboard shortcut.
