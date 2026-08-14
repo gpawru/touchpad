@@ -2,7 +2,7 @@
 
 This extension adds a touchpad toggle switch to the system menu.
 
-![GNOME Shell](https://img.shields.io/badge/GNOME_Shell-45%2B-blue?style=flat-square&logo=gnome)
+![GNOME Shell](https://img.shields.io/badge/GNOME_Shell-42--44-blue?style=flat-square&logo=gnome)
 ![LICENSE](https://img.shields.io/badge/License-MIT-green?style=flat-square)
 
 ## Motivation
